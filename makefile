@@ -1,5 +1,5 @@
 all:
-	${MAKE}  hw7
+	make hw7
 hw7: hw7.o
 	g++ -g -Wall -o hw7 hw7.o
 hw7.o: hw7.cpp
